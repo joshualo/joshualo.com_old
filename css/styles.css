@@ -82,6 +82,7 @@ small, .font_small {
 
 .header {
   padding-bottom: 1rem;
+  margin-bottom: 2rem;
   border-bottom: .05rem solid #e5e5e5;
 }
 
@@ -97,6 +98,10 @@ small, .font_small {
   margin-bottom: 1rem;
 }
 
+.align-right {
+  text-align: right;
+}
+
 .links {
   color: #767171;
 }
@@ -106,22 +111,26 @@ small, .font_small {
   text-decoration: none;
 }
 
-@media (min-width: 992px) {
+@media (max-width: 992px) {
   .align-right {
-    text-align: right;
+    text-align: left;
+  }
+
+  .organization {
+    display: inline;
+  }
+
+  .location {
+    display: none;
+  }
+
+  .dates {
+    float: right;
   }
 }
 
-/* Responsive: Portrait tablets and up */
-@media screen and (min-width: 62em) {
-  /* Remove the padding we set earlier */
-  .header,
-  .section {
-    padding-right: 0;
-    padding-left: 0;
-  }
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 2rem;
+@media (max-width: 540px) {
+  h4 {
+    letter-spacing: 0.05em;
   }
 }
