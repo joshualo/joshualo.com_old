@@ -40,13 +40,13 @@ h1, h2, h3, h4 {
 h1 {
   margin-bottom: 0;
   font-size: 3.998em;
-  letter-spacing: 0.06em;  
+  letter-spacing: 0.06em;
   color: #c45911;
 }
 
 h2 {
   font-size: 1.999em;
-  letter-spacing: 0.1em;  
+  letter-spacing: 0.1em;
   color: black;
 }
 
@@ -61,7 +61,7 @@ h4 {
   font-size: 1em;
   font-weight: bold;
   line-height: 1.45;
-  letter-spacing: 0.25em;
+  letter-spacing: 0.2em;
   margin-bottom: 0;
   color: #767171;
 }
@@ -86,12 +86,22 @@ h4 {
   margin-bottom: 1rem;
 }
 
-.bullet-list {
-  padding-left: 1em;
+.company-description {
+  display: block;
+  padding-bottom: 0.5em;
 }
 
-.m-b-1rem {
-  margin-bottom: 1rem;
+.bullet-list {
+  padding-left: 1em;
+  margin-bottom: 0;
+}
+
+.bullet-list li {
+  padding-bottom: 0.5em;
+}
+
+.m-b-0_5rem {
+  margin-bottom: 0.5rem;
 }
 
 .align-right {
